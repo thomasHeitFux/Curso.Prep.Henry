@@ -103,7 +103,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var resto = x%y;
+  let resto = x%y;
   return resto;
   
 }
@@ -120,7 +120,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
- if(num%2!==0){return true}
+ if( num%2!==0){return true}
  else{ return false} 
 }
 
@@ -168,8 +168,8 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   
   if(numero>0){
-    var espositivo="Es positivo";
-  return espositivo;
+    return "Es positivo";
+  
   }
   else if(numero < 0)
   {
@@ -179,7 +179,6 @@ function esPositivo(numero) {
   else if(numero==0){
     return false;
   }
-  
 }
 
 function agregarSimboloExclamacion(str) {
